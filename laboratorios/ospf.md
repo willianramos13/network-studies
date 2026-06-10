@@ -43,7 +43,7 @@ A LSDB contém as informações utilizadas pelo algoritmo SPF para calcular os m
 Foi executado um traceroute entre os roteadores para validar o caminho selecionado pelo OSPF.
 Devido aos custos configurados, o protocolo escolheu o enlace de menor custo como rota preferencial.
 
-![Traceroute](trace.png)
+![Traceroute](trace_01_03.png)
 
 **Simulação de Falha de Enlace**
 
