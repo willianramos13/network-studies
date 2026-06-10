@@ -22,12 +22,14 @@ Exemplo:
     
 Dessa forma, o OSPF passa a preferir o caminho de menor custo para encaminhamento do tráfego.
 
+![Metrica(custo_mk01.png)
 
 **Formação de Vizinhança (Neighbors)**
 
 Após a configuração do protocolo, foi validada a formação das adjacências entre os roteadores.
 Através do comando de verificação de vizinhos foi possível confirmar o estado FULL entre os equipamentos, indicando sincronização completa das informações OSPF.
 
+![Neighbor(vizinho_mk01.png)
 
 **Análise da LSDB (Link State Database)**
 
