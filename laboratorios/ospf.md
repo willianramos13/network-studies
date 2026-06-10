@@ -36,7 +36,7 @@ Através do comando de verificação de vizinhos foi possível confirmar o estad
 Foi realizada a análise da base de dados de estado de enlace (LSDB), verificando os Router LSAs anunciados pelos roteadores participantes da área OSPF.
 A LSDB contém as informações utilizadas pelo algoritmo SPF para calcular os melhores caminhos da rede.
 
-
+![LSA](lsa_mk01.png)
 
 **Teste de Escolha de Caminho**
 
@@ -54,6 +54,7 @@ Durante o teste foi possível observar:
     • Recalculo da árvore SPF.
     • Seleção automática do caminho alternativo.
 
+![Queda](perda_vizinho_mk01.png)
 
 **Atualização dos LSAs**
 
