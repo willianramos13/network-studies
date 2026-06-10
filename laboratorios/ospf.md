@@ -22,14 +22,14 @@ Exemplo:
     
 Dessa forma, o OSPF passa a preferir o caminho de menor custo para encaminhamento do tráfego.
 
-![Metrica(custo_mk01.png)
+![Metrica](custo_mk01.png)
 
 **Formação de Vizinhança (Neighbors)**
 
 Após a configuração do protocolo, foi validada a formação das adjacências entre os roteadores.
 Através do comando de verificação de vizinhos foi possível confirmar o estado FULL entre os equipamentos, indicando sincronização completa das informações OSPF.
 
-![Neighbor(vizinho_mk01.png)
+![Neighbor](vizinho_mk01.png)
 
 **Análise da LSDB (Link State Database)**
 
@@ -37,11 +37,13 @@ Foi realizada a análise da base de dados de estado de enlace (LSDB), verificand
 A LSDB contém as informações utilizadas pelo algoritmo SPF para calcular os melhores caminhos da rede.
 
 
+
 **Teste de Escolha de Caminho**
 
 Foi executado um traceroute entre os roteadores para validar o caminho selecionado pelo OSPF.
 Devido aos custos configurados, o protocolo escolheu o enlace de menor custo como rota preferencial.
 
+![Traceroute](trace.png)
 
 **Simulação de Falha de Enlace**
 
@@ -58,6 +60,7 @@ Durante o teste foi possível observar:
 Após a alteração da topologia, foi possível observar a geração de novos LSAs, incluindo atualização dos campos Sequence Number e Age.
 Essas alterações demonstram o mecanismo utilizado pelo OSPF para propagar mudanças de topologia entre os roteadores da área.
 
+![LsaRenovada](lsa_renovada.png)
 
 **Conclusão**
 
