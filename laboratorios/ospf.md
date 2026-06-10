@@ -10,6 +10,8 @@ Foi utilizada uma topologia em anel composta por três roteadores MikroTik CHR.
 
 A estrutura em anel permite a existência de caminhos redundantes, possibilitando ao OSPF recalcular rotas automaticamente em caso de falha de um enlace.
 
+![Topologia](cenario_ospf.png)
+
 **Configuração dos Custos OSPF**
 
 Foram configurados custos diferentes nos enlaces para influenciar a escolha do melhor caminho pelo algoritmo SPF.
