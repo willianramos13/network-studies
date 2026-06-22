@@ -1,5 +1,5 @@
 
-# 📊 Docker Monitoramento com Prometheus + Grafana + Node Exporter
+#  Docker Monitoramento com Prometheus + Grafana + Node Exporter
 
 Este projeto tem como objetivo a criação de um ambiente completo de monitoramento utilizando Docker Compose, Prometheus, Grafana e Node Exporter.
 
