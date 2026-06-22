@@ -11,3 +11,5 @@ Repositório criado para documentar minha jornada de aprendizado em:
 - VLAN
 - NAT
 - OSPF
+- Docker
+- Monitoramento
